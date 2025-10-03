@@ -1,0 +1,15 @@
+fastapi>=0.95
+uvicorn[standard]>=0.22
+pydantic>=1.10
+redis>=4.5
+prometheus-client>=0.16
+langchain>=0.0  # pin to your compatible version (match imports)
+langchain-openai>=0.0  # pin to the version you use
+langchain-core>=0.0
+faiss-cpu>=1.7.3
+pytest>=7.0
+httpx>=0.24
+pytest-asyncio>=0.21
+python-dotenv>=1.0
+langchain-community
+langchain-groq
