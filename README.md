@@ -754,14 +754,7 @@ overall_score = (
 
 If you find this project useful, please consider giving it a star on GitHub! ⭐
 
-[![Star History Chart](https://api.star-history.com/svg?repos=yourusername/risk-assessment-platform&type=Date)](https://star-history.com/#yourusername/risk-assessment-platform&Date)
-
----
-
-<div align="center">
-
 **Built with ❤️ using FastAPI, LangChain, and Groq**
 
-</div>
 
 
