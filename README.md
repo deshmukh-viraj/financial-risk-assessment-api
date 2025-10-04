@@ -294,8 +294,7 @@ Compliance Reqs  ──▶   LLM Enhancement         ──▶  Recommendations
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/risk-assessment-platform.git
-cd risk-assessment-platform
+git clone https://github.com/deshmukh-viraj/financial-risk-assessment-api.git
 ```
 
 ### 2. Create Virtual Environment
@@ -471,8 +470,6 @@ This will create:
 
 ### Grafana Dashboard Overview
 
-The platform includes a comprehensive dashboard with 13 panels:
-
 #### Performance Metrics
 1. **API Request Rate** - Requests per second by endpoint
 2. **API Response Time** - P50/P95 latency percentiles
@@ -609,8 +606,8 @@ FINANCIAL-RISK-ASSESSMENT/
 ├── README.md                  # This file
 └── requirements.txt           # Python dependencies
 ---
-
-## 🔍 Risk Assessment Details
+```
+### 🔍 Risk Assessment Details
 
 ### Credit Risk Analysis
 
@@ -766,4 +763,5 @@ If you find this project useful, please consider giving it a star on GitHub! ⭐
 **Built with ❤️ using FastAPI, LangChain, and Groq**
 
 </div>
+
 
