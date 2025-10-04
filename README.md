@@ -80,11 +80,11 @@ The **Financial Risk Assessment Platform** is an enterprise-grade system that le
 │           │               │  │
 │           ▼               │  │
 │  ┌─────────────────────┐  │  │         ┌──────────────────────┐
-│  │  RAG Retrieval      │──┼──┼────────▶│  RAG PIPELINE        │
-│  │  Node               │  │  │         │                      │
+│  │  RAG Retrieval      │──┼──┼────────▶│  RAG PIPELINE       │
+│  │  Node               │  │  │         │                     │
 │  └──────────┬──────────┘  │  │         │  ┌────────────────┐ │
-│             │              │  │         │  │ FAISS Vector   │ │
-│             ▼              │  │         │  │ Store          │ │
+│             │             │  │         │  │ FAISS Vector   │ │
+│             ▼             │  │         │  │ Store          │ │
 │  ┌─────────────────────┐  │  │         │  └────────────────┘ │
 │  │  Risk Agent Nodes   │  │  │         │  ┌────────────────┐ │
 │  │                     │  │  │         │  │ HuggingFace    │ │
@@ -103,8 +103,8 @@ The **Financial Risk Assessment Platform** is an enterprise-grade system that le
 │  │  │Agent          │  │  │  │
 │  │  └───────────────┘  │  │  │
 │  └──────────┬──────────┘  │  │
-│             │              │  │
-│             ▼              │  │
+│             │             │  │
+│             ▼             │  │
 │  ┌─────────────────────┐  │  │
 │  │  Synthesis Node     │  │  │
 │  │  - Weighted Score   │  │  │
@@ -115,7 +115,7 @@ The **Financial Risk Assessment Platform** is an enterprise-grade system that le
               │                 │
               ▼                 │
 ┌───────────────────────────────▼──────────────────────┐
-│              GROQ LLM API (Qwen 3-32B)               │
+│              GROQ LLM API (Qwen 3-32B)                │
 │              - Risk Analysis                          │
 │              - Factor Identification                  │
 │              - Contextual Reasoning                   │
@@ -126,18 +126,18 @@ The **Financial Risk Assessment Platform** is an enterprise-grade system that le
 ┌─────────────────────────────────────────────────────────────┐
 │                  MONITORING STACK                            │
 │  ┌──────────────┐  ┌──────────────┐  ┌──────────────────┐    │
-│  │  Prometheus  │◀─│  Metrics     │  │   Alertmanager   │   │
+│  │  Prometheus  │◀─│  Metrics     │  │   Alertmanager   │    │
 │  │  (Port 9090) │  │  Exporter    │  │   (Optional)     │    │
 │  └──────┬───────┘  │  (Port 8000) │  └──────────────────┘    │
 │         │          └──────────────┘                          │
 │         │                                                    │
 │         ▼                                                    │
-│  ┌──────────────┐                                           │
-│  │   Grafana    │                                           │
-│  │  (Port 3000) │                                           │
-│  │  - 13 Panels │                                           │
-│  │  - 7 Alerts  │                                           │
-│  └──────────────┘                                           │
+│  ┌──────────────┐                                            │
+│  │   Grafana    │                                            │
+│  │  (Port 3000) │                                            │
+│  │  - 13 Panels │                                            │
+│  │  - 7 Alerts  │                                            │
+│  └──────────────┘                                            │
 └─────────────────────────────────────────────────────────────┘
 ```
 
@@ -574,53 +574,40 @@ Prometheus metrics endpoint.
 ## 📁 Project Structure
 
 ```
-risk-assessment-platform/
+FINANCIAL-RISK-ASSESSMENT/
 │
 ├── app/
-│   ├── __init__.py
-│   ├── main.py                 # FastAPI application
-│   ├── config.py               # Configuration
-│   ├── models.py               # Pydantic models
-│   ├── metrics.py              # Prometheus metrics
-│   ├── agents.py               # Risk assessment agents
-│   ├── orchestrator.py         # LangGraph workflow
-│   ├── rag_pipeline.py         # RAG implementation
-│   └── mcp_server.py           # Assessment storage
+│   ├── __pycache__/            # Python bytecode cache
+│   ├── agents.py               # Risk assessment agents (Credit, Market, Operational, Compliance)
+│   ├── config.py               # Application configuration and settings
+│   ├── main.py                 # FastAPI application entry point
+│   ├── mcp_server.py           # Assessment storage and history management
+│   ├── metrics.py              # Prometheus metrics definitions
+│   ├── models.py               # Pydantic data models
+│   ├── orchestrator.py         # LangGraph workflow orchestration
+│   └── rag_pipeline.py         # RAG implementation with FAISS
 │
-├── tests/
-│   ├── __init__.py
-│   └── test_api.py             # API tests
+├── data/                       # Runtime data (auto-generated)
+│   └── assessments.json        # Persisted assessment history
 │
 ├── documents/                  # PDF documents for RAG
-│   └── *.pdf
+│   └── kome-text.pdf          # Sample financial document
 │
-├── data/                       # Runtime data
-│   ├── assessments.json        # Persisted assessments
-│   ├── prometheus/             # Prometheus TSDB
-│   └── grafana/                # Grafana data
+├── tests/
+│   ├── test_api.py            # API endpoint tests
+│   └── test_assess.py         # Assessment logic tests
 │
-├── grafana/
-│   ├── dashboards/
-│   │   ├── dashboard.yml
-│   │   └── risk-assessment-dashboard.json
-│   └── datasources/
-│       └── prometheus.yml
+├── vector_store/              # FAISS vector database (auto-generated)
+│   ├── index.faiss            # FAISS index file
+│   └── index.pkl              # Pickled document store
 │
-├── vector_store/               # FAISS vector database
+├── venv/                      # Python virtual environment
 │
-├── prometheus.yml              # Prometheus config
-├── alerts.yml                  # Alert rules
-├── docker-compose.monitoring.yml
-├── setup_monitoring.sh
-├── test_monitoring.py
-├── requirements.txt
-├── Dockerfile
-├── .env.example
-├── .gitignore
-├── LICENSE
-└── README.md
-```
-
+├── .env                       # Environment variables (not in repo)
+├── .gitignore                 # Git ignore patterns
+├── Dockerfile                 # Docker image definition
+├── README.md                  # This file
+└── requirements.txt           # Python dependencies
 ---
 
 ## 🔍 Risk Assessment Details
@@ -779,3 +766,4 @@ If you find this project useful, please consider giving it a star on GitHub! ⭐
 **Built with ❤️ using FastAPI, LangChain, and Groq**
 
 </div>
+
