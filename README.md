@@ -45,6 +45,13 @@ The **Financial Risk Assessment Platform** is an enterprise-grade system that le
 
 ---
 
+
+
+##Demo
+
+[View Demo PDF](documents/demo.pdf)
+
+
 ## 🏗️ Architecture
 
 ### System Architecture Diagram
@@ -755,6 +762,7 @@ overall_score = (
 If you find this project useful, please consider giving it a star on GitHub! ⭐
 
 **Built with ❤️ using FastAPI, LangChain, and Groq**
+
 
 
 
