@@ -12,7 +12,7 @@ import prometheus_client
 from prometheus_client import start_http_server
 from app.models import RiskAssessmentRequest, ComprehensiveRiskAssessment
 
-app = FastAPI(title="Financial Risk Assessment API", version="1.0.0")
+app = FastAPI(title="Financial Risk Assessment API", version="1.0.0", openapi_url=None)
 
 app.add_middleware(
     CORSMiddleware,

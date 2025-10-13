@@ -1,0 +1,339 @@
+{
+  "assessments": {
+    "RA-20251013094257": {
+      "company_id": "string",
+      "credit_risk": {
+        "risk_type": "credit",
+        "score": 0.385,
+        "level": "medium",
+        "factors": [
+          "Moderate liquidity",
+          "Weak interest coverage"
+        ],
+        "confidence": 0.85,
+        "timestamp": "2025-10-13 09:42:57.485929"
+      },
+      "market_risk": {
+        "risk_type": "market",
+        "score": 0.0,
+        "level": "low",
+        "factors": [],
+        "confidence": 0.8,
+        "timestamp": "2025-10-13 09:42:57.495797"
+      },
+      "operational_risk": {
+        "risk_type": "operational",
+        "score": 0.0,
+        "level": "low",
+        "factors": [],
+        "confidence": 0.75,
+        "timestamp": "2025-10-13 09:42:57.498798"
+      },
+      "compliance_risk": {
+        "risk_type": "compliance",
+        "score": 0.0,
+        "level": "low",
+        "factors": [],
+        "confidence": 0.9,
+        "timestamp": "2025-10-13 09:42:57.500792"
+      },
+      "overall_risk_score": 0.11549999999999999,
+      "overall_risk_level": "low",
+      "recommendations": [
+        "Monitor liquidity ratios closely and maintain adequate cash reserves"
+      ],
+      "assessment_id": "RA-20251013094257",
+      "timestamp": "2025-10-13T09:42:57.502791"
+    },
+    "RA-20251013094357": {
+      "company_id": "string",
+      "credit_risk": {
+        "risk_type": "credit",
+        "score": 0.385,
+        "level": "medium",
+        "factors": [
+          "Moderate liquidity",
+          "Weak interest coverage"
+        ],
+        "confidence": 0.85,
+        "timestamp": "2025-10-13 09:43:57.892085"
+      },
+      "market_risk": {
+        "risk_type": "market",
+        "score": 0.0,
+        "level": "low",
+        "factors": [],
+        "confidence": 0.8,
+        "timestamp": "2025-10-13 09:43:57.892085"
+      },
+      "operational_risk": {
+        "risk_type": "operational",
+        "score": 0.0,
+        "level": "low",
+        "factors": [],
+        "confidence": 0.75,
+        "timestamp": "2025-10-13 09:43:57.892085"
+      },
+      "compliance_risk": {
+        "risk_type": "compliance",
+        "score": 0.0,
+        "level": "low",
+        "factors": [],
+        "confidence": 0.9,
+        "timestamp": "2025-10-13 09:43:57.892085"
+      },
+      "overall_risk_score": 0.11549999999999999,
+      "overall_risk_level": "low",
+      "recommendations": [
+        "Monitor liquidity ratios closely and maintain adequate cash reserves"
+      ],
+      "assessment_id": "RA-20251013094357",
+      "timestamp": "2025-10-13T09:43:57.901214"
+    },
+    "RA-20251013095650": {
+      "company_id": "COMP123",
+      "credit_risk": {
+        "risk_type": "credit",
+        "score": 0.385,
+        "level": "medium",
+        "factors": [
+          "Moderate debt-to-equity ratio",
+          "Moderate liquidity",
+          "Moderate interest coverage"
+        ],
+        "confidence": 0.85,
+        "timestamp": "2025-10-13 09:56:50.651944"
+      },
+      "market_risk": {
+        "risk_type": "market",
+        "score": 0.0,
+        "level": "low",
+        "factors": [],
+        "confidence": 0.8,
+        "timestamp": "2025-10-13 09:56:50.653939"
+      },
+      "operational_risk": {
+        "risk_type": "operational",
+        "score": 0.0,
+        "level": "low",
+        "factors": [],
+        "confidence": 0.75,
+        "timestamp": "2025-10-13 09:56:50.655936"
+      },
+      "compliance_risk": {
+        "risk_type": "compliance",
+        "score": 0.0,
+        "level": "low",
+        "factors": [],
+        "confidence": 0.9,
+        "timestamp": "2025-10-13 09:56:50.656936"
+      },
+      "overall_risk_score": 0.11549999999999999,
+      "overall_risk_level": "low",
+      "recommendations": [
+        "Monitor liquidity ratios closely and maintain adequate cash reserves"
+      ],
+      "assessment_id": "RA-20251013095650",
+      "timestamp": "2025-10-13T09:56:50.658936"
+    },
+    "RA-20251013095927": {
+      "company_id": "COMP999",
+      "credit_risk": {
+        "risk_type": "credit",
+        "score": 0.8250000000000001,
+        "level": "high",
+        "factors": [
+          "High debt-to-equity ratio",
+          "Moderate liquidity",
+          "Weak interest coverage",
+          "Stagnant revenue growth"
+        ],
+        "confidence": 0.85,
+        "timestamp": "2025-10-13 09:59:27.351935"
+      },
+      "market_risk": {
+        "risk_type": "market",
+        "score": 0.25,
+        "level": "low",
+        "factors": [
+          "Moderate market volatility",
+          "Moderate foreign currency exposure"
+        ],
+        "confidence": 0.8,
+        "timestamp": "2025-10-13 09:59:27.351935"
+      },
+      "operational_risk": {
+        "risk_type": "operational",
+        "score": 0.6,
+        "level": "high",
+        "factors": [
+          "High process error rate",
+          "High supplier concentration risk",
+          "Some cybersecurity concerns"
+        ],
+        "confidence": 0.75,
+        "timestamp": "2025-10-13 09:59:27.351935"
+      },
+      "compliance_risk": {
+        "risk_type": "compliance",
+        "score": 0.25,
+        "level": "low",
+        "factors": [
+          "Minor regulatory violation",
+          "GDPR compliance gaps"
+        ],
+        "confidence": 0.9,
+        "timestamp": "2025-10-13 09:59:27.359938"
+      },
+      "overall_risk_score": 0.4925,
+      "overall_risk_level": "medium",
+      "recommendations": [
+        "Urgent: Improve debt-to-equity ratio through debt reduction or equity financing",
+        "Enhance cash flow management and working capital optimization",
+        "Strengthen IT infrastructure and cybersecurity measures",
+        "Implement business continuity and disaster recovery plans",
+        "Diversify supplier base to reduce concentration risk"
+      ],
+      "assessment_id": "RA-20251013095927",
+      "timestamp": "2025-10-13T09:59:27.359938"
+    },
+    "RA-20251013095945": {
+      "company_id": "COMP999",
+      "credit_risk": {
+        "risk_type": "credit",
+        "score": 0.8250000000000001,
+        "level": "high",
+        "factors": [
+          "High debt-to-equity ratio",
+          "Moderate liquidity",
+          "Weak interest coverage",
+          "Stagnant revenue growth"
+        ],
+        "confidence": 0.85,
+        "timestamp": "2025-10-13 09:59:45.415737"
+      },
+      "market_risk": {
+        "risk_type": "market",
+        "score": 0.25,
+        "level": "low",
+        "factors": [
+          "Moderate market volatility",
+          "Moderate foreign currency exposure"
+        ],
+        "confidence": 0.8,
+        "timestamp": "2025-10-13 09:59:45.415737"
+      },
+      "operational_risk": {
+        "risk_type": "operational",
+        "score": 0.6,
+        "level": "high",
+        "factors": [
+          "High process error rate",
+          "High supplier concentration risk",
+          "Some cybersecurity concerns"
+        ],
+        "confidence": 0.75,
+        "timestamp": "2025-10-13 09:59:45.423747"
+      },
+      "compliance_risk": {
+        "risk_type": "compliance",
+        "score": 0.25,
+        "level": "low",
+        "factors": [
+          "Minor regulatory violation",
+          "GDPR compliance gaps"
+        ],
+        "confidence": 0.9,
+        "timestamp": "2025-10-13 09:59:45.423747"
+      },
+      "overall_risk_score": 0.4925,
+      "overall_risk_level": "medium",
+      "recommendations": [
+        "Urgent: Improve debt-to-equity ratio through debt reduction or equity financing",
+        "Enhance cash flow management and working capital optimization",
+        "Strengthen IT infrastructure and cybersecurity measures",
+        "Implement business continuity and disaster recovery plans",
+        "Diversify supplier base to reduce concentration risk"
+      ],
+      "assessment_id": "RA-20251013095945",
+      "timestamp": "2025-10-13T09:59:45.423747"
+    },
+    "RA-20251013100013": {
+      "company_id": "AAPL",
+      "credit_risk": {
+        "risk_type": "credit",
+        "score": 0.8250000000000001,
+        "level": "high",
+        "factors": [
+          "High debt-to-equity ratio",
+          "Moderate liquidity",
+          "Weak interest coverage",
+          "Stagnant revenue growth"
+        ],
+        "confidence": 0.85,
+        "timestamp": "2025-10-13 10:00:13.633474"
+      },
+      "market_risk": {
+        "risk_type": "market",
+        "score": 0.25,
+        "level": "low",
+        "factors": [
+          "Moderate market volatility",
+          "Moderate foreign currency exposure"
+        ],
+        "confidence": 0.8,
+        "timestamp": "2025-10-13 10:00:13.633474"
+      },
+      "operational_risk": {
+        "risk_type": "operational",
+        "score": 0.6,
+        "level": "high",
+        "factors": [
+          "High process error rate",
+          "High supplier concentration risk",
+          "Some cybersecurity concerns"
+        ],
+        "confidence": 0.75,
+        "timestamp": "2025-10-13 10:00:13.642227"
+      },
+      "compliance_risk": {
+        "risk_type": "compliance",
+        "score": 0.25,
+        "level": "low",
+        "factors": [
+          "Minor regulatory violation",
+          "GDPR compliance gaps"
+        ],
+        "confidence": 0.9,
+        "timestamp": "2025-10-13 10:00:13.642227"
+      },
+      "overall_risk_score": 0.4925,
+      "overall_risk_level": "medium",
+      "recommendations": [
+        "Urgent: Improve debt-to-equity ratio through debt reduction or equity financing",
+        "Enhance cash flow management and working capital optimization",
+        "Strengthen IT infrastructure and cybersecurity measures",
+        "Implement business continuity and disaster recovery plans",
+        "Diversify supplier base to reduce concentration risk"
+      ],
+      "assessment_id": "RA-20251013100013",
+      "timestamp": "2025-10-13T10:00:13.642227"
+    }
+  },
+  "company_map": {
+    "string": [
+      "RA-20251013094357",
+      "RA-20251013094257"
+    ],
+    "COMP123": [
+      "RA-20251013095650"
+    ],
+    "COMP999": [
+      "RA-20251013095945",
+      "RA-20251013095927"
+    ],
+    "AAPL": [
+      "RA-20251013100013"
+    ]
+  }
+}
