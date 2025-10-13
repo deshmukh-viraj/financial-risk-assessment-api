@@ -52,7 +52,6 @@ The **Financial Risk Assessment Platform** is an enterprise-grade system that le
 
 [View Demo PDF](documents/demo.pdf)
 
-[View Dashborad](https://github.com/deshmukh-viraj/financial-risk-assessment-api/blob/master/documents/risk_dashboard.tsx)
 
 
 ---
@@ -768,6 +767,7 @@ overall_score = (
 If you find this project useful, please consider giving it a star on GitHub! ⭐
 
 **Built with ❤️ using FastAPI, LangChain, and Groq**
+
 
 
 
