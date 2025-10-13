@@ -318,6 +318,189 @@
       ],
       "assessment_id": "RA-20251013100013",
       "timestamp": "2025-10-13T10:00:13.642227"
+    },
+    "RA-20251013104105": {
+      "company_id": "COMP999",
+      "credit_risk": {
+        "risk_type": "credit",
+        "score": 0.8250000000000001,
+        "level": "high",
+        "factors": [
+          "High debt-to-equity ratio",
+          "Moderate liquidity",
+          "Weak interest coverage",
+          "Stagnant revenue growth"
+        ],
+        "confidence": 0.85,
+        "timestamp": "2025-10-13 10:41:05.884733"
+      },
+      "market_risk": {
+        "risk_type": "market",
+        "score": 0.25,
+        "level": "low",
+        "factors": [
+          "Moderate market volatility",
+          "Moderate foreign currency exposure"
+        ],
+        "confidence": 0.8,
+        "timestamp": "2025-10-13 10:41:05.884733"
+      },
+      "operational_risk": {
+        "risk_type": "operational",
+        "score": 0.6,
+        "level": "high",
+        "factors": [
+          "High process error rate",
+          "High supplier concentration risk",
+          "Some cybersecurity concerns"
+        ],
+        "confidence": 0.75,
+        "timestamp": "2025-10-13 10:41:05.884733"
+      },
+      "compliance_risk": {
+        "risk_type": "compliance",
+        "score": 0.25,
+        "level": "low",
+        "factors": [
+          "Minor regulatory violation",
+          "GDPR compliance gaps"
+        ],
+        "confidence": 0.9,
+        "timestamp": "2025-10-13 10:41:05.884733"
+      },
+      "overall_risk_score": 0.4925,
+      "overall_risk_level": "medium",
+      "recommendations": [
+        "Urgent: Improve debt-to-equity ratio through debt reduction or equity financing",
+        "Enhance cash flow management and working capital optimization",
+        "Strengthen IT infrastructure and cybersecurity measures",
+        "Implement business continuity and disaster recovery plans",
+        "Diversify supplier base to reduce concentration risk"
+      ],
+      "assessment_id": "RA-20251013104105",
+      "timestamp": "2025-10-13T10:41:05.893846"
+    },
+    "RA-20251013105226": {
+      "company_id": "COMP999",
+      "credit_risk": {
+        "risk_type": "credit",
+        "score": 0.8250000000000001,
+        "level": "high",
+        "factors": [
+          "High debt-to-equity ratio",
+          "Moderate liquidity",
+          "Weak interest coverage",
+          "Stagnant revenue growth"
+        ],
+        "confidence": 0.85,
+        "timestamp": "2025-10-13 10:52:26.800514"
+      },
+      "market_risk": {
+        "risk_type": "market",
+        "score": 0.25,
+        "level": "low",
+        "factors": [
+          "Moderate market volatility",
+          "Moderate foreign currency exposure"
+        ],
+        "confidence": 0.8,
+        "timestamp": "2025-10-13 10:52:26.802505"
+      },
+      "operational_risk": {
+        "risk_type": "operational",
+        "score": 0.6,
+        "level": "high",
+        "factors": [
+          "High process error rate",
+          "High supplier concentration risk",
+          "Some cybersecurity concerns"
+        ],
+        "confidence": 0.75,
+        "timestamp": "2025-10-13 10:52:26.804504"
+      },
+      "compliance_risk": {
+        "risk_type": "compliance",
+        "score": 0.25,
+        "level": "low",
+        "factors": [
+          "Minor regulatory violation",
+          "GDPR compliance gaps"
+        ],
+        "confidence": 0.9,
+        "timestamp": "2025-10-13 10:52:26.805507"
+      },
+      "overall_risk_score": 0.4925,
+      "overall_risk_level": "medium",
+      "recommendations": [
+        "Urgent: Improve debt-to-equity ratio through debt reduction or equity financing",
+        "Enhance cash flow management and working capital optimization",
+        "Strengthen IT infrastructure and cybersecurity measures",
+        "Implement business continuity and disaster recovery plans",
+        "Diversify supplier base to reduce concentration risk"
+      ],
+      "assessment_id": "RA-20251013105226",
+      "timestamp": "2025-10-13T10:52:26.807505"
+    },
+    "RA-20251013105254": {
+      "company_id": "NVDA",
+      "credit_risk": {
+        "risk_type": "credit",
+        "score": 0.8250000000000001,
+        "level": "high",
+        "factors": [
+          "High debt-to-equity ratio",
+          "Moderate liquidity",
+          "Weak interest coverage",
+          "Stagnant revenue growth"
+        ],
+        "confidence": 0.85,
+        "timestamp": "2025-10-13 10:52:54.888693"
+      },
+      "market_risk": {
+        "risk_type": "market",
+        "score": 0.25,
+        "level": "low",
+        "factors": [
+          "Moderate market volatility",
+          "Moderate foreign currency exposure"
+        ],
+        "confidence": 0.8,
+        "timestamp": "2025-10-13 10:52:54.891693"
+      },
+      "operational_risk": {
+        "risk_type": "operational",
+        "score": 0.6,
+        "level": "high",
+        "factors": [
+          "High process error rate",
+          "High supplier concentration risk",
+          "Some cybersecurity concerns"
+        ],
+        "confidence": 0.75,
+        "timestamp": "2025-10-13 10:52:54.892696"
+      },
+      "compliance_risk": {
+        "risk_type": "compliance",
+        "score": 0.25,
+        "level": "low",
+        "factors": [
+          "Minor regulatory violation",
+          "GDPR compliance gaps"
+        ],
+        "confidence": 0.9,
+        "timestamp": "2025-10-13 10:52:54.894695"
+      },
+      "overall_risk_score": 0.4925,
+      "overall_risk_level": "medium",
+      "recommendations": [
+        "Urgent: Improve debt-to-equity ratio through debt reduction or equity financing",
+        "Enhance cash flow management and working capital optimization",
+        "Strengthen IT infrastructure and cybersecurity measures",
+        "Implement business continuity and disaster recovery plans",
+        "Diversify supplier base to reduce concentration risk"
+      ],
+      "assessment_id": "RA-20251013105254",
+      "timestamp": "2025-10-13T10:52:54.896697"
     }
   },
   "company_map": {
@@ -329,11 +512,16 @@
       "RA-20251013095650"
     ],
     "COMP999": [
+      "RA-20251013105226",
+      "RA-20251013104105",
       "RA-20251013095945",
       "RA-20251013095927"
     ],
     "AAPL": [
       "RA-20251013100013"
+    ],
+    "NVDA": [
+      "RA-20251013105254"
     ]
   }
 }
