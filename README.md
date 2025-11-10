@@ -25,19 +25,14 @@
 
 ### Critical Pain Points in Traditional Risk Assessment
 
-**1. Slow, error-prone scoring: 
-● Traditional risk scoring is often manual or based on simple rules. 
-● Loan applications can take 45–60 days to process by human reviewers (blog.crsoftware.com.)
-● Slow reviews create bottlenecks and fatigue, causing inconsistent judgments and mistakes.
+Slow, error-prone scoring: Traditional risk scoring is often manual or based on simple rules. Loan applications can take 45–60 days to process by human reviewers (blog.crsoftware.com
+). Slow reviews create bottlenecks and fatigue, causing inconsistent judgments and mistakes.
 
-**2. Costly inaccuracies: 
-● In one study, inefficient underwriting drove mortgage losses from about $82 to over $2,800 per file in just a few months (blog.crsoftware.com)
-● Manual models typically hit only ~81% accuracy (blog.crsoftware.com) ,meaning risky loans slip through or good customers get rejected.
+Costly inaccuracies: Inefficient underwriting drove mortgage losses from $82 to $2,800 per file within months (blog.crsoftware.com
+). Manual models typically reach only ~81% accuracy (blog.crsoftware.com
+), meaning risky loans slip through or good customers are rejected.
 
-**3. Business impact: 
-● These delays and errors hurt businesses and customers. 
-● Lenders lose money on bad loans, and borrowers face unfair denials. 
-● Faster, more reliable risk scores are critical for making good lending and investment decisions (which in turn protects revenue and customer trust).
+Business impact: These delays and errors hurt both businesses and customers — lenders lose money on bad loans, and borrowers face unfair denials. Faster, more reliable risk scores are essential to protect revenue and customer trust.
 
 > **Bottom Line:** Financial institutions needed faster, more reliable risk assessment to protect revenue, reduce losses, and serve customers better.
 
@@ -519,3 +514,4 @@ Built with:
 ---
 
 **Built with ❤️ to transform financial risk assessment from a 60-day manual process to instant, AI-powered intelligence.**
+
