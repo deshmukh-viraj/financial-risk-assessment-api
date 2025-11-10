@@ -25,26 +25,25 @@
 
 ### Critical Pain Points in Traditional Risk Assessment
 
-**1. Painfully Slow Processing**
-- Manual loan reviews take **45-60 days** to complete
-- Human reviewers create bottlenecks, especially during high-volume periods
-- Delays frustrate customers and cost businesses opportunities
+**1. Slow, error-prone scoring: 
+● Traditional risk scoring is often manual or based on simple rules. 
+● Loan applications can take 45–60 days to process by human reviewers (blog.crsoftware.com.)
+● Slow reviews create bottlenecks and fatigue, causing inconsistent judgments and mistakes.
 
-**2. Expensive Inaccuracies**
-- Inefficient underwriting drove mortgage losses from **$82 to over $2,800 per file** in months
-- Manual models achieve only **~81% accuracy**
-- Bad loans slip through while qualified customers get rejected
+**2. Costly inaccuracies: 
+● In one study, inefficient underwriting drove mortgage losses from about $82 to over $2,800 per file in just a few months (blog.crsoftware.com)
+● Manual models typically hit only ~81% accuracy (blog.crsoftware.com) ,meaning risky loans slip through or good customers get rejected.
 
-**3. Business Impact**
-- Lenders lose millions on defaults that could have been prevented
-- Good borrowers face unfair denials, damaging customer trust
-- Inconsistent human judgment leads to compliance risks and bias
+**3. Business impact: 
+● These delays and errors hurt businesses and customers. 
+● Lenders lose money on bad loans, and borrowers face unfair denials. 
+● Faster, more reliable risk scores are critical for making good lending and investment decisions (which in turn protects revenue and customer trust).
 
 > **Bottom Line:** Financial institutions needed faster, more reliable risk assessment to protect revenue, reduce losses, and serve customers better.
 
 ---
 
-## 🤖 Why AI/ML Was Essential
+## Why AI/ML Was Essential
 
 ### Limitations of Traditional Methods
 
