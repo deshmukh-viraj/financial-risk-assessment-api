@@ -23,18 +23,21 @@
 
 ## 🎯 The Business Problem
 
-### Critical Pain Points in Traditional Risk Assessment
+## 💼 Critical Pain Points in Traditional Risk Assessment
 
-Slow, error-prone scoring: Traditional risk scoring is often manual or based on simple rules. Loan applications can take 45–60 days to process by human reviewers (blog.crsoftware.com
-). Slow reviews create bottlenecks and fatigue, causing inconsistent judgments and mistakes.
+### Slow, Error-Prone Scoring
+Traditional risk scoring is often manual or based on simple rules. Loan applications can take **45–60 days** to process by human reviewers ([blog.crsoftware.com](https://blog.crsoftware.com)).  
+Slow reviews create bottlenecks and fatigue, causing inconsistent judgments and mistakes.
 
-Costly inaccuracies: Inefficient underwriting drove mortgage losses from $82 to $2,800 per file within months (blog.crsoftware.com
-). Manual models typically reach only ~81% accuracy (blog.crsoftware.com
-), meaning risky loans slip through or good customers are rejected.
+### Costly Inaccuracies
+Inefficient underwriting drove mortgage losses from **$82 to $2,800 per file** within months ([blog.crsoftware.com](https://blog.crsoftware.com)).  
+Manual models typically reach only **~81% accuracy** ([blog.crsoftware.com](https://blog.crsoftware.com)), meaning risky loans slip through or good customers are rejected.
 
-Business impact: These delays and errors hurt both businesses and customers — lenders lose money on bad loans, and borrowers face unfair denials. Faster, more reliable risk scores are essential to protect revenue and customer trust.
+### Business Impact
+These delays and errors hurt both businesses and customers — lenders lose money on bad loans, and borrowers face unfair denials.  
+Faster, more reliable risk scores are essential to protect revenue and customer trust.
 
-> **Bottom Line:** Financial institutions needed faster, more reliable risk assessment to protect revenue, reduce losses, and serve customers better.
+> **Bottom Line:** Financial institutions need faster, more reliable risk assessment to protect revenue, reduce losses, and serve customers better.
 
 ---
 
