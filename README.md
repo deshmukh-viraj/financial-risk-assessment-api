@@ -21,21 +21,24 @@
 
 ---
 
-## 🎯 The Business Problem
+## 💼 The Business Problem
 
-## 💼 Critical Pain Points in Traditional Risk Assessment
+### 🧾 Critical Pain Points in Traditional Risk Assessment
 
-### Slow, Error-Prone Scoring
-Traditional risk scoring is often manual or based on simple rules. Loan applications can take **45–60 days** to process by human reviewers ([blog.crsoftware.com](https://blog.crsoftware.com)).  
-Slow reviews create bottlenecks and fatigue, causing inconsistent judgments and mistakes.
+#### Slow, Error-Prone Scoring
+- Traditional risk scoring is often **manual** or based on **simple rule systems**.  
+- Loan applications can take **45–60 days** to process by human reviewers ([blog.crsoftware.com](https://blog.crsoftware.com)).  
+- Slow reviews create bottlenecks and fatigue, leading to **inconsistent judgments** and mistakes.
 
-### Costly Inaccuracies
-Inefficient underwriting drove mortgage losses from **$82 to $2,800 per file** within months ([blog.crsoftware.com](https://blog.crsoftware.com)).  
-Manual models typically reach only **~81% accuracy** ([blog.crsoftware.com](https://blog.crsoftware.com)), meaning risky loans slip through or good customers are rejected.
+#### Costly Inaccuracies
+- Inefficient underwriting drove **mortgage losses from $82 to $2,800 per file** within months ([blog.crsoftware.com](https://blog.crsoftware.com)).  
+- Manual models typically reach only **~81% accuracy** ([blog.crsoftware.com](https://blog.crsoftware.com)).  
+- This allows **risky loans to pass** undetected or **good customers to be rejected**.
 
-### Business Impact
-These delays and errors hurt both businesses and customers — lenders lose money on bad loans, and borrowers face unfair denials.  
-Faster, more reliable risk scores are essential to protect revenue and customer trust.
+#### Business Impact
+- These delays and inaccuracies hurt both **lenders** and **borrowers**.  
+- Lenders lose money on **bad loans**, and customers face **unfair denials**.  
+- **Faster, more reliable risk scoring** is essential to protect revenue and maintain trust.
 
 > **Bottom Line:** Financial institutions need faster, more reliable risk assessment to protect revenue, reduce losses, and serve customers better.
 
@@ -179,28 +182,37 @@ The system uses a **multi-agent architecture** powered by LangGraph:
 
 ---
 
-## 📊 Results & Business Impact
+## 📊 Results & Impact (Key Metrics)
 
-### Performance Metrics
+### Speed & Efficiency
+- Automated scoring reduced review time by up to **90%** — from **weeks to seconds** for low-risk cases.  
+- Enabled **real-time credit decisions** and continuous monitoring.  
+([blog.crsoftware.com](https://blog.crsoftware.com))
 
-| Metric | Before (Manual) | After (AI-Powered) | Improvement |
-|--------|----------------|-------------------|-------------|
-| **Processing Time** | 45-60 days | Seconds | **90% faster** ⚡ |
-| **Accuracy** | ~81% | 95%+ | **+14-20%** 📈 |
-| **Cost per Assessment** | High (manual labor) | Low (automated) | **~30% reduction** 💰 |
-| **Default Rate** | Baseline | Reduced | **20-40% fewer defaults** ✅ |
+### Accuracy & Approvals
+- ML models improved borrower differentiation, **boosting approval rates by 5–15%**.  
+- Reduced false rejections of creditworthy applicants.  
+([blog.crsoftware.com](https://blog.crsoftware.com))
+
+### Risk Reduction
+- Enhanced prediction models led to **20–40% fewer defaults**.  
+- Improved **early detection** of high-risk profiles, reducing portfolio losses.  
+([blog.crsoftware.com](https://blog.crsoftware.com))
 
 ### Business Outcomes
+- Operational efficiency increased by **20–40%**.  
+- Achieved up to **15× loss reduction** in high-risk portfolios.  
+- **3× profitability growth** observed in certain financial products.  
+([blog.crsoftware.com](https://blog.crsoftware.com))
 
-**Revenue & Risk Reduction:**
-- **15× reduction** in losses on high-risk portfolios
-- **3× increase** in profitability for targeted loan products
-- **20-40% efficiency gains** in overall processing
+### 👥 User Feedback
+- Stakeholders valued the **simple API** and **transparent scoring** process.  
+- Faster, consistent evaluations **improved trust** and freed analysts for strategic decisions.
 
-**Customer & Operational Impact:**
-- **5-15% increase** in loan approval rates (fewer false rejections)
-- **Early warning system** enables proactive risk management
-- **Consistent decisions** across all applications (no human bias)
+**Sources:**  
+[blog.crsoftware.com](https://blog.crsoftware.com) • [superagi.com](https://superagi.com)
+
+---
 
 ### Real-World Impact
 
@@ -517,4 +529,5 @@ Built with:
 ---
 
 **Built with ❤️ to transform financial risk assessment from a 60-day manual process to instant, AI-powered intelligence.**
+
 
